@@ -24,6 +24,8 @@ public class DataLoader {
 
     @PostConstruct
     private void loadData() {
+        productRepo.deleteAll();
+        sellerRepo.deleteAll();
         Seller seller = new Seller(null, "nathan", "rich", "mange des pommes", null);
         Seller seller2 = new Seller(null, "jean", "paul", "mange des poires", null);
         Seller seller3 = new Seller(null, "val", "jean", "mange des artichauds", null);
