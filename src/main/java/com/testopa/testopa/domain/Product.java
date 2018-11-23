@@ -20,4 +20,5 @@ public class Product {
     private Double amount;
     @ManyToOne
     private Seller seller;
+    
 }
