@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 @Controller
 public class SellerController {
 
-    @GetMapping(value = "/ze")
+    @GetMapping(value = "/name")
     public String index(HttpServletRequest req) {
         return "index.html";
     }
