@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>insert vendor</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+<h1>Entre un vendeur</h1>
+<h2>Customer edition</h2>
+<!--
+    Set the action attribute to "/exercise12/saveCustomer.html", and use
+    th:object to bind the ${customer} variable as the form-backing bean.
+-->
+<form method="post" action="/saveVendor">
+    <!-- Use th:field to set field 'id' here -->
+    <input type="hidden" />
+
+    <!-- Use th:field to show *{firstName} -->
+    <label for="firstName">First name:</label>
+    <input id="firstName" type="text" />
+
+    <!-- Use th:field to show *{lastName} -->
+    <label for="lastName">Last name:</label>
+    <input id="lastName" type="text" />
+
+    <input type="submit" />
+</form>
+</body>
+</html>

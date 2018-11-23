@@ -1,0 +1,7 @@
+-- #SERVER_NAME
+CREATE TABLE seller (
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    firstname VARCHAR(255) NOT NULL ,
+    lastname VARCHAR(255) NOT NULL ,
+    bio VARCHAR (255)
+);

@@ -1,0 +1,10 @@
+This exercise introduces concepts from chapter 4 - section 3 of the Using Thymeleaf manual.
+
+A bean of class Customer has been set into the context model with variable name customer. This is a complex bean,
+ containing properties of the Gender PaymentMethod enum types.
+Edit the source code in order to bind bean fields into form fields. You have to use th:object and th:field attributes.
+As this exercise is more complex than previous ones, some hints have been written as HTML comments inside the template.
+After trying a solution, look a the Generated source to see how field elements are populated.
+In particular, see the input hidden element for the 'id' field.
+You can finally press the 'Submit' button to see how the form values are sent to the server.
+You can check the proposed solution by pressing the Show solution button () above the code editor.
